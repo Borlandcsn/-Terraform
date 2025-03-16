@@ -6,17 +6,25 @@
 
 Задание №1
 
-1.После загрузки каталога src обезательно переносим файл .terraformrc в домашний каталог иначе инит не будет работать.
+1.
+
+После загрузки каталога src обезательно переносим файл .terraformrc в домашний каталог иначе инит не будет работать.
 
 ![Screenshot_1](https://github.com/user-attachments/assets/e82f1ba0-1af4-4d4e-800d-134973c870c1)
 
-2.Файл personal.auto.tfvars является лучшим вариантом хранения паролей в виде переменных, согласно данному файлу .gitignore он игнорируеться.
+2.
 
-3.Ответ HWXs9ODMTP5tw3om
+Файл personal.auto.tfvars является лучшим вариантом хранения паролей в виде переменных, согласно данному файлу .gitignore он игнорируеться.
+
+3.
+
+Ответ HWXs9ODMTP5tw3om
 
 ![Screenshot_2](https://github.com/user-attachments/assets/44d7c7f8-1619-4982-945f-c0741118d086)
 
-4.Первая ошибка отсутствует имя в обьявлении ресурса resource "docker_image" {
+4.
+
+Первая ошибка отсутствует имя в обьявлении ресурса resource "docker_image" {
 
 Вторая наименование ресурса не может начинаться с цифры 1nginx. 
 
@@ -30,9 +38,13 @@
 
 ![Screenshot_9](https://github.com/user-attachments/assets/ce12f2e4-14f7-4f5a-837e-1c4b1b9b2522)
 
-5.![Screenshot_4](https://github.com/user-attachments/assets/3d1ae04a-cdcd-497e-becc-56c0f0018ab1)
+5.
 
-6.![Screenshot_5](https://github.com/user-attachments/assets/461fe7d8-0eb8-45fd-95cd-2540ba0c918e)
+![Screenshot_4](https://github.com/user-attachments/assets/3d1ae04a-cdcd-497e-becc-56c0f0018ab1)
+
+6.
+
+![Screenshot_5](https://github.com/user-attachments/assets/461fe7d8-0eb8-45fd-95cd-2540ba0c918e)
 
 Ключ -auto-approve в Terraform автоматически подтверждает выполнение операций, которые требуют интерактивного подтверждения.Опасность в том что:
 
@@ -42,11 +54,15 @@
 
  Ошибки в конфигурации
 
- 7.![Screenshot_6](https://github.com/user-attachments/assets/778b2e96-b485-4321-90a5-99b14356c01d)
+ 7.
+ 
+ ![Screenshot_6](https://github.com/user-attachments/assets/778b2e96-b485-4321-90a5-99b14356c01d)
 
  ![Screenshot_7](https://github.com/user-attachments/assets/abe688ea-93ae-46aa-87eb-31abf6f25a89)
 
- 8.![Screenshot_8](https://github.com/user-attachments/assets/8e310320-3c69-415b-9f52-5330b83dedd5)
+ 8.
+ 
+ ![Screenshot_8](https://github.com/user-attachments/assets/8e310320-3c69-415b-9f52-5330b83dedd5)
 
  Строчка keep_locally = true запрещает удалять образ в локальном хранилеще при операции дестрой 
 
